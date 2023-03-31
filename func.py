@@ -1,4 +1,5 @@
 import PySimpleGUI as sg
+sg.theme("DefaultNoMoreNagging")
 import os
 layout = [[sg.Input(), sg.Button("OK")], [sg.Button("Save"), sg.Button("Open"), sg.Button("Exit")]]
 window = sg.Window("Launchpad", layout)
